@@ -11,8 +11,8 @@ int main(void)
     char temp;
     int len = 0;
     do{
-//        temp = fgetc(stdin);
-        temp = getchar();
+        temp = fgetc(stdin);
+//        temp = getchar();
         if('\n' == temp || EOF == temp)
             temp = 0;
         
