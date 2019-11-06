@@ -2,6 +2,11 @@
 #include<stdlib.h>
 #include"singly_linked_list_node.h"
 
+#define DEBUG 1
+#if DEBUG
+//this debug way is a good method, it will be avoid the problems of explain sentence like/**/..//..
+#endif
+
 Node* sll_init(Node* root);
 int sll_insert(Node* root,int value);
 Node* sll_reverse(Node* root);
